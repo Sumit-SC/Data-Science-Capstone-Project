@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 from sklearn.preprocessing import LabelEncoder, StandardScaler
+from pathlib import Path
 
 # Load the saved model
 model_filename = "Random Forest.pkl"
@@ -9,6 +10,7 @@ loaded_model = pickle.load(open(model_filename, "rb"))
 
 # Load the cleaned data
 cleaned_data_filename = "Processed CAR DETAILS.csv"
+
 cleaned_data = pd.read_csv(cleaned_data_filename)
 
 category_col = ['Brand', 'Model', 'Variant', 'Fuel', 'Seller_Type', 'Transmission', 'Owner']
