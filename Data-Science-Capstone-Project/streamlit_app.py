@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from pathlib import Path
 
 # Load the saved model
-model_filename = Path(__file__).parent / "models/Random Forest.pkl"
+model_filename = Path(__file__).parent / "models\Random Forest.pkl"
 loaded_model = pickle.load(open(model_filename, "rb"))
 
 # Load the cleaned data
