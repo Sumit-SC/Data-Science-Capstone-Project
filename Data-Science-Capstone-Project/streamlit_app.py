@@ -4,7 +4,7 @@ import pickle
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 # Load the saved model
-model_filename = "../ata-Science-Capstone-Project/Data-Science-Capstone-Project/models/Random Forest.pkl"
+model_filename = "../Data-Science-Capstone-Project/Data-Science-Capstone-Project/models/Random Forest.pkl"
 loaded_model = pickle.load(open(model_filename, "rb"))
 
 # Load the cleaned data
