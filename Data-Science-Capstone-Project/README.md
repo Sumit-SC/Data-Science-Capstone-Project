@@ -1,29 +1,37 @@
-Data-Science-Capstone-Project
+## Data-Science-Capstone-Project
 ==============================
 
 Repo containing the final Capstone Project for Data Science with Python Career Program by Skill Academy. The Capstone project is based on Car Details dataset, and the aim is to perform EDA on the given Dataset and train and evaluate a model to predict the price of car & give results based on the parameters given by the user. & deploy on streamlit.
 
-Project Organization
+
+### Features
+
+1. Explore the car dataset & analyze the data.
+2. Visualize the given data.
+3. Pre-process & clean the dataset.
+4. Make a machine learning model following different modelling techniques and handling all the params to train the model.
+5. Selecting the best model to evaluate results.
+6. Check with sample data teh actual prediction of the model.
+7. Deployed s webapp to get the prediction of price using Streamlit.
+
+### Model Deployment (Using Streamlit)
+
+To test and use the best model in predicting the cars from a dataset using a webapp by utilising the [Streamlit](https://streamlit.io/) interface.
+To try & test the prediction visit [Car Prediction Streamlit Page]()
+
+### Project Organization
+
 ------------
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
-    │   ├── external       <- Data from third party sources.
     │   ├── interim        <- Intermediate data that has been transformed.
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    ├── notebooks          <- Jupyter notebooks - Data analysis(Graphical analysis) & Model Evaulation (ML).
     │
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
@@ -32,8 +40,8 @@ Project Organization
     │                         generated with `pip freeze > requirements.txt`
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
+    ├── src (Not in these Project) <- Source code for use in this project (Blank for these project only
+    │                         used viz to store images.)
     │   │
     │   ├── data           <- Scripts to download or generate data
     │   │   └── make_dataset.py
@@ -49,7 +57,7 @@ Project Organization
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
     │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    └── app.py              <- Streamlit app to run a web app of the model.
 
 
 --------
