@@ -2,13 +2,14 @@ import streamlit as st
 import pandas as pd
 import pickle
 from sklearn.preprocessing import LabelEncoder, StandardScaler
+from pathlib import Path
 
 # Load the saved model
-model_filename = "..Data-Science-Capstone-Project/models/Random Forest.pkl"
+model_filename = Path(__file__).parent / "..Data-Science-Capstone-Project/models/Random Forest.pkl"
 loaded_model = pickle.load(open(model_filename, "rb"))
 
 # Load the cleaned data
-cleaned_data_filename = "../Data-Science-Capstone-Project/data/processed/Processed CAR DETAILS.csv"
+cleaned_data_filename = Path(__file__).parent / "../Data-Science-Capstone-Project/data/processed/Processed CAR DETAILS.csv"
 cleaned_data = pd.read_csv(cleaned_data_filename)
 
 category_col = ['Brand', 'Model', 'Variant', 'Fuel', 'Seller_Type', 'Transmission', 'Owner']
