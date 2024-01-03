@@ -36,13 +36,13 @@ if social_acc_nav == 'About':
     • Working Experience of 2.5 Years as a Software Engineer''')
     st.sidebar.markdown("[Contact Me](mailto:sumitsc.work@gmail.com)")
 elif social_acc_nav == 'Kaggle':
-    st.sidebar.image('kaggle.jpg')
+    st.sidebar.image('https://mitsus.life-is-pa.in/6ohYGkH40.png')
     st.sidebar.markdown("[Kaggle](https://www.kaggle.com/mitsu00)")
 elif social_acc_nav == 'Github':
-    st.sidebar.image('github.png')
+    st.sidebar.image('https://mitsus.life-is-pa.in/6ohZdGxSM.png')
     st.sidebar.markdown("[Github Profile](https://github.com/Sumit-SC)")
 elif social_acc_nav == 'LinkedIn':
-    st.sidebar.image('linkedin.jpg')
+    st.sidebar.image('https://mitsus.life-is-pa.in/6ohYtyxiP.png')
     st.sidebar.markdown("[Visit LinkedIn account](https://www.linkedin.com/in/sumitsc/)")
 
 # Load the saved model
