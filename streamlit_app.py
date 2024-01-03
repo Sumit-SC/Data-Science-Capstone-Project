@@ -4,8 +4,13 @@ import pickle
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from pathlib import Path
 
-# Streamlit app
+# Get the current directory
+current_dir = Path(__file__).resolve().parent
 
+# Navigate back to the main project directory
+project_dir = current_dir.parent
+
+# Streamlit app
 # set page title
 st.set_page_config('Car Price Prediction App')
 
@@ -24,25 +29,22 @@ if social_acc_nav == 'About':
 elif social_acc_nav == 'Kaggle':
     st.sidebar.image('kaggle.jpg')
     st.sidebar.markdown("[Kaggle](https://www.kaggle.com/mitsu00)")
-
 elif social_acc_nav == 'Github':
     st.sidebar.image('github.png')
     st.sidebar.markdown("[Github Profile](https://github.com/Sumit-SC)")
-
 elif social_acc_nav == 'LinkedIn':
     st.sidebar.image('linkedin.jpg')
     st.sidebar.markdown("[Visit LinkedIn account](https://www.linkedin.com/in/sumitsc/)")
 
 # Load the saved model
-model_filename = "./models/Random Forest.pkl"
+model_filename = current_dir / "models/Random Forest.pkl"
 loaded_model = pickle.load(open(model_filename, "rb"))
 
 # import raw data & show
-raw_df = pd.read_csv('./data/raw/CAR DETAILS.csv')
+raw_df = pd.read_csv(current_dir / 'data/raw/CAR DETAILS.csv')
 
 # Load the cleaned data
-cleaned_data_filename = "./data/processed/Processed CAR DETAILS.csv"
-
+cleaned_data_filename = current_dir / "data/processed/Processed CAR DETAILS.csv"
 cleaned_data = pd.read_csv(cleaned_data_filename)
 
 category_col = ['Brand', 'Model', 'Variant', 'Fuel', 'Seller_Type', 'Transmission', 'Owner']
@@ -50,13 +52,12 @@ category_col = ['Brand', 'Model', 'Variant', 'Fuel', 'Seller_Type', 'Transmissio
 # Main Page Starting
 
 # Menu Bar/Page selection
-menu_list = ['Raw-Data Display','Exploratory Data Analysis', "Predict Selling Price"]
+menu_list = ['Raw-Data Display', 'Exploratory Data Analysis', "Predict Selling Price"]
 menu = st.radio("Menu", menu_list)
 
 # Raw-Data Display
 if menu == 'Raw-Data Display':
     st.title('Used Car Models Raw-Dataset')
-    
     if st.checkbox("View Raw Car dataset"):
         st.write(raw_df)
 
@@ -71,8 +72,10 @@ if menu == 'Exploratory Data Analysis':
 elif menu == 'Predict Selling Price':
     # Display the columns in the web app
     st.title("Car Selling Price Prediction App")
+
     # Display a dropdown to toggle between loaded CSV data and encoded data
-    display_option = st.radio("Select Display Option:", ["No Data","Loaded CSV Data", "Encoded Data"])
+    display_option = st.radio("Select Display Option:", ["No Data", "Loaded CSV Data", "Encoded Data"])
+
     # function for encoding loaded dataset
     def preprocess_data(df, label_encoders):
         for feature in df.columns:
@@ -107,7 +110,8 @@ elif menu == 'Predict Selling Price':
         st.write(encoded_data)
 
     # Display sliders for numerical features
-    km_driven = st.slider("Select KM Driven:", min_value=cleaned_data["Km_Driven"].min(), max_value=cleaned_data["Km_Driven"].max())
+    km_driven = st.slider("Select KM Driven:", min_value=cleaned_data["Km_Driven"].min(),
+                          max_value=cleaned_data["Km_Driven"].max())
     year = st.slider("Select Year:", min_value=cleaned_data["Year"].min(), max_value=cleaned_data["Year"].max())
 
     # Display dropdowns for categorical features
