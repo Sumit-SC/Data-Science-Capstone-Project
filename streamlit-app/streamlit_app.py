@@ -9,12 +9,12 @@ import os
 # Get the current directory
 current_dir = Path(__file__).resolve().parent
 
-# List the contents of the directory
-directory_contents = os.listdir(current_dir)
+# # List the contents of the directory
+# directory_contents = os.listdir(current_dir)
 
-# Display the contents using st.write
-st.write(f"Contents of Directory '{current_dir}':")
-st.write(directory_contents)
+# # Display the contents using st.write
+# st.write(f"Contents of Directory '{current_dir}':")
+# st.write(directory_contents)
 
 # Navigate back to the main project directory
 project_dir = current_dir.parent
