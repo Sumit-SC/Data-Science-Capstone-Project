@@ -9,12 +9,12 @@ import os
 # Get the current directory
 current_dir = Path(__file__).resolve().parent
 
-# List the contents of the directory
-directory_contents = os.listdir(current_dir)
+# # List the contents of the directory
+# directory_contents = os.listdir(current_dir)
 
-# Display the contents using st.write
-st.write(f"Contents of Directory '{current_dir}':")
-st.write(directory_contents)
+# # Display the contents using st.write
+# st.write(f"Contents of Directory '{current_dir}':")
+# st.write(directory_contents)
 
 # Navigate back to the main project directory
 project_dir = current_dir.parent
@@ -50,10 +50,10 @@ model_filename = current_dir / "./models/Random Forest.pkl"
 loaded_model = pickle.load(open(model_filename, "rb"))
 
 # import raw data & show
-raw_df = pd.read_csv(current_dir / './data/raw/CAR DETAILS.csv')
+raw_df = pd.read_csv(current_dir / './dataset/raw/CAR DETAILS.csv')
 
 # Load the cleaned data
-cleaned_data_filename = current_dir / "./data/processed/Processed CAR DETAILS.csv"
+cleaned_data_filename = current_dir / "./dataset/processed/Processed CAR DETAILS.csv"
 cleaned_data = pd.read_csv(cleaned_data_filename)
 
 category_col = ['Brand', 'Model', 'Variant', 'Fuel', 'Seller_Type', 'Transmission', 'Owner']
