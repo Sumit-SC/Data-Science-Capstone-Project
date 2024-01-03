@@ -3,6 +3,8 @@ import pandas as pd
 import pickle
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from pathlib import Path
+import os
+
 
 # Get the current directory
 current_dir = Path(__file__).resolve().parent
