@@ -34,14 +34,14 @@ elif social_acc_nav == 'LinkedIn':
     st.sidebar.markdown("[Visit LinkedIn account](https://www.linkedin.com/in/sumitsc/)")
 
 # Load the saved model
-model_filename = current_dir / "Random Forest.pkl"
+model_filename = current_dir / "../models/Random Forest.pkl"
 loaded_model = pickle.load(open(model_filename, "rb"))
 
 # import raw data & show
-raw_df = pd.read_csv(current_dir / 'CAR DETAILS.csv')
+raw_df = pd.read_csv(current_dir / '../data/raw/CAR DETAILS.csv')
 
 # Load the cleaned data
-cleaned_data_filename = current_dir / "Processed CAR DETAILS.csv"
+cleaned_data_filename = current_dir / "../data/processed/Processed CAR DETAILS.csv"
 cleaned_data = pd.read_csv(cleaned_data_filename)
 
 category_col = ['Brand', 'Model', 'Variant', 'Fuel', 'Seller_Type', 'Transmission', 'Owner']
