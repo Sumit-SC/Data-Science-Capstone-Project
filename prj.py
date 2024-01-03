@@ -8,9 +8,9 @@ from sklearn.linear_model import LinearRegression
 import random
 
 # import raw data & show
-raw_df = pd.read_csv('../Data-Science-Capstone-Project/data/raw/CAR DETAILS.csv')
+raw_df = pd.read_csv('./data/raw/CAR DETAILS.csv')
 # import data file csv
-df = pd.read_csv('../Data-Science-Capstone-Project/data/processed/Processed CAR DETAILS.csv')
+df = pd.read_csv('./data/processed/Processed CAR DETAILS.csv')
 
 # set page title
 st.set_page_config('Car Price Prediction App')
