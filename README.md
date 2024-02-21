@@ -28,7 +28,11 @@ To try & test the prediction visit -
 > 
 > <a href="url">Alternate Webapp</a> <a href="https://sumit-ml-capstone-project.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"></a>
 
+### Notebook Exploration
 
+#### EDA  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Sumit-SC/Data-Science-Capstone-Project/HEAD?labpath=%2Fnotebooks%2FUsed_Cars_DA%28Graphical%2526Cleaning%29.ipynb)
+
+#### ML Modelling Steps [![Binder](https://mybinder.org/badge_logo.svg)](https://nbviewer.org/github/Sumit-SC/Data-Science-Capstone-Project/blob/main/notebooks/Used_Cars_ML.ipynb)
 ### Project Organization
 
 ------------
