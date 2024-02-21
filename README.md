@@ -21,7 +21,9 @@ To try & test the prediction visit -
 
 > [Car Prediction Streamlit Page](https://mitsu-ds-capstone-project.streamlit.app/) or
 > 
-> [Alternate WebApp](https://sumit-ml-capstone-project.streamlit.app/)
+> [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mitsu-ds-capstone-project.streamlit.app/)
+>
+> [Alternate WebApp][![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sumit-ml-capstone-project.streamlit.app/)
 
 ### Project Organization
 
