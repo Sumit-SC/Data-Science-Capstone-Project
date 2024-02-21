@@ -5,7 +5,6 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from pathlib import Path
 import os
 
-
 # Get the current directory
 current_dir = Path(__file__).resolve().parent
 
@@ -22,6 +21,15 @@ project_dir = current_dir.parent
 # Streamlit app
 # set page title
 st.set_page_config('Car Price Prediction App')
+# Hide Streamlit's GitHub icon
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # Side Nav-bar window
 social_acc = ['About', 'Github', 'Kaggle', 'LinkedIn']
@@ -73,7 +81,11 @@ if menu == 'Raw-Data Display':
 # EDA Part(Will Add Later)
 if menu == 'Exploratory Data Analysis':
     st.title('Exploratory Data Analysis of Used Car Models ')
-    st.write("Will Add the eda part with graphs and analysis later on.")
+    
+    st.write("Will Add the eda part with graphs and analysis later on (Learning the Ui part to adjust the plots and graphs from Streamlit docs instead of just pasting the static images screenshot.)")
+    st.write("EDA Code to view & Explore the Graphs & inisghts :")
+    st.write("[EDA](https://github.com/Sumit-SC/Data-Science-Capstone-Project/blob/main/notebooks/Used_Cars_DA(Graphical%26Cleaning).ipynb) ,")
+    st.write("[Colab](https://colab.research.google.com/drive/1ObKA8DxCUC5S_2riq31XJoZrfxLq8bbn#scrollTo=yt1XakQBL8tD)")
     if st.checkbox("View Cleaned/Processed data"):
         st.write(cleaned_data)
 
