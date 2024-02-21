@@ -23,8 +23,9 @@ To try & test the prediction visit -
 > 
 > [Alternate WebApp]([![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sumit-ml-capstone-project.streamlit.app/))
 -->
-> <a href="url">Car Prediction Streamlit Page</a> <a href="https://mitsu-ds-capstone-project.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">or</a>
+> <a href="url">Car Prediction Streamlit Page</a> <a href="https://mitsu-ds-capstone-project.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"></a>
 >
+> 
 > <a href="url">Alternate Webapp</a> <a href="https://sumit-ml-capstone-project.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"></a>
 
 
