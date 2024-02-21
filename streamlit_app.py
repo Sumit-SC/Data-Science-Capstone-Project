@@ -5,6 +5,18 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from pathlib import Path
 import os
 
+st.markdown(
+    """
+    <style>
+    .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
+    .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
+    .viewerBadge_text__1JaDK {
+        display: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # Get the current directory
 current_dir = Path(__file__).resolve().parent
