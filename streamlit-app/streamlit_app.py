@@ -20,7 +20,7 @@ project_dir = current_dir.parent
 
 # Streamlit app
 # set page title
-# st.set_page_config('Car Price Prediction App')
+st.set_page_config('Car Price Prediction App')
 # Hide Streamlit's GitHub icon
 hide_st_style = """
             <style>
