@@ -34,9 +34,9 @@ To try & test the prediction visit -
   <video src="demos/Demo-Video.webm" width="500px"></video>
 </p>
 
-<video src="demo/Demo-Video.webm" width="320" height="240" controls></video>
+<video src="demos/Demo-Video.webm" width="320" height="240" controls></video>
 
-![non working video](images/video.mp4)
+![Demo](demos/Demo-Video.webm)
 
 ### Notebook Exploration
 
