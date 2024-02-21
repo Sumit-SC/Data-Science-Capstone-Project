@@ -31,12 +31,12 @@ To try & test the prediction visit -
 ### Demo Video of Streamlit App
 
 <p align="center">
-  <video src="demos/Demo-Video.webm" width="500px"></video>
+  <video src="demos/Demo-Video.mp4" width="500px"></video>
 </p>
 
-<video src="demos/Demo-Video.webm" width="320" height="240" controls></video>
+<video src="demos/Demo-Video.mp4" width="320" height="240" controls></video>
 
-![Demo](demos/Demo-Video.webm)
+![Demo](demos/Demo-Video.mp4)
 
 ### Notebook Exploration
 
