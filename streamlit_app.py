@@ -27,7 +27,7 @@ st.set_page_config('Car Price Prediction App')
 # Hide Streamlit's GitHub icon
 hide_st_style = """
             <style>
-            #MainMenu {visibility: visible;}
+            #MainMenu {visibility: hidden;}
             header {visibility: hidden;}
             footer {visibility: hidden;}
             </style>
