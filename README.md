@@ -38,6 +38,9 @@ To try & test the prediction visit -
 
 ![Demo](demos/Demo-Video.mp4)
 
+video demo 
+https://raw.githubusercontent.com/Sumit-SC/Data-Science-Capstone-Project/main/demos/Demo-Video.mp4
+
 ### Notebook Exploration
 
 #### EDA  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Sumit-SC/Data-Science-Capstone-Project/HEAD?labpath=%2Fnotebooks%2FUsed_Cars_DA%28Graphical%2526Cleaning%29.ipynb)
