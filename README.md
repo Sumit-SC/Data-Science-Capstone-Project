@@ -1,8 +1,8 @@
 ## Data-Science-Capstone-Project
+
 ==============================
 
 Repo containing the final Capstone Project for Data Science with Python Career Program by Skill Academy. The Capstone project is based on Car Details dataset, and the aim is to perform EDA on the given Dataset and train and evaluate a model to predict the price of car & give results based on the parameters given by the user. & deploy on streamlit.
-
 
 ### Features
 
@@ -23,32 +23,31 @@ To try & test the prediction visit -
 > 
 > [Alternate WebApp]([![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sumit-ml-capstone-project.streamlit.app/))
 -->
-> <a href="url">Car Prediction Streamlit Page</a> <a href="https://mitsu-ds-capstone-project.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"></a>
+
+> `<a href="url">`Car Prediction Streamlit Page`</a>` `<a href="https://mitsu-ds-capstone-project.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">``</a>`
 >
-> 
-> <a href="url">Alternate Webapp</a> <a href="https://sumit-ml-capstone-project.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"></a>
+> `<a href="url">`Alternate Webapp`</a>` `<a href="https://sumit-ml-capstone-project.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">``</a>`
 
 ### Demo Video of Streamlit App
 
-<p align="center">
-  <video src="demos/Demo-Video.mp4" width="500px"></video>
+
+<p align="center">Stream Lit Demo
+<video src="demos/Demo-Video.mp4" width="600" height="400" controls>Streamlit Demo</video>
 </p>
 
-<video src="demos/Demo-Video.mp4" width="320" height="240" controls></video>
+---
 
-![Demo](demos/Demo-Video.mp4)
-
-video demo 
-https://raw.githubusercontent.com/Sumit-SC/Data-Science-Capstone-Project/main/demos/Demo-Video.mp4
-
-### Notebook Exploration
+## Notebook Exploration
 
 #### EDA  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Sumit-SC/Data-Science-Capstone-Project/HEAD?labpath=%2Fnotebooks%2FUsed_Cars_DA%28Graphical%2526Cleaning%29.ipynb)
 
 #### ML Modelling Steps [![Binder](https://mybinder.org/badge_logo.svg)](https://nbviewer.org/github/Sumit-SC/Data-Science-Capstone-Project/blob/main/notebooks/Used_Cars_ML.ipynb)
-### Project Organization
 
-------------
+---
+
+## Project Organization
+
+---
 
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
@@ -64,7 +63,7 @@ https://raw.githubusercontent.com/Sumit-SC/Data-Science-Capstone-Project/main/de
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
+    │                         generated with`pip freeze > requirements.txt`
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src (Not in these Project) <- Source code for use in this project (Blank for these project only
@@ -86,7 +85,6 @@ https://raw.githubusercontent.com/Sumit-SC/Data-Science-Capstone-Project/main/de
     │
     └── app.py              <- Streamlit app to run a web app of the model.
 
-
---------
+---
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
