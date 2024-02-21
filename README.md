@@ -28,6 +28,16 @@ To try & test the prediction visit -
 > 
 > <a href="url">Alternate Webapp</a> <a href="https://sumit-ml-capstone-project.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"></a>
 
+### Demo Video of Streamlit App
+
+<p align="center">
+  <video src="demos/Demo-Video.webm" width="500px"></video>
+</p>
+
+<video src="demo/Demo-Video.webm" width="320" height="240" controls></video>
+
+![non working video](images/video.mp4)
+
 ### Notebook Exploration
 
 #### EDA  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Sumit-SC/Data-Science-Capstone-Project/HEAD?labpath=%2Fnotebooks%2FUsed_Cars_DA%28Graphical%2526Cleaning%29.ipynb)
