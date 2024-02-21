@@ -34,8 +34,9 @@ To try & test the prediction visit -
 ### Demo Video of Streamlit App
 
 <p align="center">Stream Lit Demo
-<video src="demos/Demo-Video.mp4" width="600" height="400" controls>Streamlit Demo</video>
+<video src="https://github.com/Sumit-SC/Data-Science-Capstone-Project/assets/43643943/f22682df-8879-4132-ad05-94746ea20d98" width="600" height="400" controls>Streamlit Demo</video>
 </p>
+
 ---
 Testing File:
 
