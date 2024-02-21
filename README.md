@@ -20,19 +20,21 @@ To test and use the best model in predicting the cars from a dataset using a web
 To try & test the prediction visit -
 
 <!-- [Car Prediction Streamlit Page](https://mitsu-ds-capstone-project.streamlit.app/) or
-> 
+>
 > [Alternate WebApp]([![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://sumit-ml-capstone-project.streamlit.app/))
 -->
 
-> `<a href="url">`Car Prediction Streamlit Page`</a>` `<a href="https://mitsu-ds-capstone-project.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">``</a>`
+
+> <a href="url">`Car Prediction Streamlit Page :`</a> <a href="https://mitsu-ds-capstone-project.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"></a>
 >
-> `<a href="url">`Alternate Webapp`</a>` `<a href="https://sumit-ml-capstone-project.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">``</a>`
+> <a href="url">`Alternate Webapp :`</a><a href="https://sumit-ml-capstone-project.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"></a>
+
+---
 
 ### Demo Video of Streamlit App
 
-
 <p align="center">Stream Lit Demo
-<video src="demos/Demo-Video.mp4" width="600" height="400" controls>Streamlit Demo</video>
+<video src="https://github.com/Sumit-SC/Data-Science-Capstone-Project/assets/43643943/f22682df-8879-4132-ad05-94746ea20d98" width="600" height="400" controls>Streamlit Demo</video>
 </p>
 
 ---
