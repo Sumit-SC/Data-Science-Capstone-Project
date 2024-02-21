@@ -23,10 +23,12 @@ project_dir = current_dir.parent
 st.set_page_config('Car Price Prediction App')
 
 # Hide Streamlit's GitHub icon
+
+# Hide Streamlit's GitHub icon
 hide_st_style = """
             <style>
-            #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
+            header {visibility: hidden;}
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
