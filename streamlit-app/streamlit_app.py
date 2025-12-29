@@ -3,6 +3,7 @@ import pandas as pd
 import pickle
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from pathlib import Path
+from st_social_media_links import SocialMediaIcons
 import os
 
 # Get the current directory
@@ -44,13 +45,13 @@ if social_acc_nav == 'About':
     • Working Experience of 2.5 Years as a Software Engineer''')
     st.sidebar.markdown("[Contact Me](mailto:sumitsc.work@gmail.com)")
 elif social_acc_nav == 'Kaggle':
-    st.sidebar.image('https://mitsus.life-is-pa.in/6ohYGkH40.png')
+    st.sidebar.image('https://mitsus-.life-is-pa.in/7s65GCpDu.png')
     st.sidebar.markdown("[Kaggle](https://www.kaggle.com/mitsu00)")
 elif social_acc_nav == 'Github':
-    st.sidebar.image('https://mitsus.life-is-pa.in/6ohZdGxSM.png')
+    st.sidebar.image('https://mitsus-.life-is-pa.in/7s66cDoBZ.png')
     st.sidebar.markdown("[Github Profile](https://github.com/Sumit-SC)")
 elif social_acc_nav == 'LinkedIn':
-    st.sidebar.image('https://mitsus.life-is-pa.in/6ohYtyxiP.png')
+    st.sidebar.image('https://mitsus-.life-is-pa.in/7s65TFl9W.png')
     st.sidebar.markdown("[Visit LinkedIn account](https://www.linkedin.com/in/sumitsc/)")
 
 # Load the saved model
